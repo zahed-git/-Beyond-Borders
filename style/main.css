@@ -178,3 +178,44 @@ main {
     font-weight: 800;
     border: none;
 }
+
+/* footer section */
+footer {
+    margin: 100px 0px 0px 0px;
+    background-color: #1313180D;
+    text-align: center;
+}
+
+.footer {
+    max-width: 769px;
+    margin: auto;
+    text-align: center;
+    padding: 110px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #1313181A;
+
+}
+
+.footer-title {
+    margin: auto;
+    width: 236px;
+    margin-bottom: 0px;
+
+}
+
+.icons {
+    width: 174px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: auto;
+}
+
+.all-right {
+    margin-top: 50px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 110px;
+}
