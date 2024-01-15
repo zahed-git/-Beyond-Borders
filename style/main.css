@@ -1,0 +1,16 @@
+/* shared style start */
+.cmn-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 16px 36px;
+    color: #FFF;
+   text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+}
+.cmn-color{
+    color: #FF5400;
+}
+
+/* shared style end */

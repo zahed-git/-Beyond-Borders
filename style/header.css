@@ -1,0 +1,81 @@
+header {
+    max-width: 1180px;
+    margin: 0px auto 0px auto;
+    padding-top: 52px;
+}
+
+nav {}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-elements {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* banner section start */
+.banner {
+    margin-top: 49px;
+    background-image: url(../img/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(7, 2, 17, 0.00) 100%), ;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+.ban-content {
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ban-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.ban-dis {
+    max-width: 670px;
+    margin-top: 25px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.banner-input-field {
+}
+
+.input-field {
+    margin: 60px 12px;
+    padding-left: 16px;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    background: #FFF;
+}
+
+/* banner section end */
