@@ -4,13 +4,177 @@
     background: #FF5400;
     padding: 16px 36px;
     color: #FFF;
-   text-align: center;
+    text-align: center;
     font-size: 20px;
     font-weight: 800;
     border: none;
 }
-.cmn-color{
+
+.cmn-color {
     color: #FF5400;
 }
 
+.b-color {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.m-color {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.s-color {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /* shared style end */
+
+main {
+    margin: 100px auto 0px auto;
+    max-width: 1180px;
+}
+
+.sec-popular-tour {
+    display: flex;
+    gap: 53px;
+    margin: 0px;
+}
+
+.popular-tour-container {
+    max-width: 577px;
+}
+
+.popular-tour-img {
+    max-width: 540px;
+    max-height: 550px;
+    width: 100%;
+    height: 100%;
+}
+
+.sec-choose-destination {
+    /* margin-top: 200px; */
+}
+
+.choose-heading {
+    padding-top: 150px;
+    max-width: 643px;
+    text-align: center;
+    margin: auto;
+}
+
+.img-box-1 {
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+}
+
+.img-box-1 img {
+    max-width: 573px;
+    max-height: 300px;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.img-box-2 {
+    margin-top: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.img-box-3 {
+    margin-top: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.sec-choose-us {
+    margin-bottom: 0px;
+}
+
+.hotels-services {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.hotels,
+.services,
+.price {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    padding: 32px 56px 32px 32px;
+}
+
+.hotels {
+    background-color: #FBB56333;
+}
+
+.services {
+    background-color: #29CEF633;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+}
+
+.price-con {
+    /* margin: 24px auto; */
+}
+
+.price {
+    margin: 24px auto;
+    background-color: #E9444433;
+}
+
+.sec-news-letter {
+    margin-top: 100px;
+    display: flex;
+    gap: 24px;
+}
+
+.news-container {
+    max-width: 474px;
+    max-height: 422px;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.border-bottom {
+    padding-bottom: 24px;
+    border: 2px solid #1313181A;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.input-field2 {
+    margin-bottom: 16px;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    background: #1313180D;
+}
+
+.btn-Subscribe {
+    margin-top: 10px;
+    width: 393px;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 16px 36px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+}
