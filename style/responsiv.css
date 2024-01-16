@@ -3,6 +3,16 @@
         /* gap: 120px; */
         justify-content: space-around;
     } 
+    /* all headings start */
+
+    .popular-tour-container ,
+    .choose-heading ,
+    .footer-heading{
+        width: 300px;
+        margin: auto;
+    }
+
+    /* all headings end */
      
 
     .nav-elements {
@@ -103,6 +113,10 @@
     .services,
     .price{
         width: 280px;
+        margin-left: 5px;
+    }
+    .price{
+        /* margin-left: 0px; */
     }
     .sec-news-letter img{
        width: 100%;
@@ -126,5 +140,8 @@
     .all-right {
         margin-top: 15px;
         padding-bottom: 30px;
+    }
+    .icons{
+        margin-top: 20px;
     }
 }

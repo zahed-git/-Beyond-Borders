@@ -288,7 +288,7 @@ footer {
 
 .icons {
     width: 174px;
-    margin-top: 32px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     gap: 30px;
@@ -303,7 +303,7 @@ footer {
     padding-bottom: 110px;
 }
 
-/* testing */
+/* nav bar modification */
 ul {
     list-style: none;
 }
