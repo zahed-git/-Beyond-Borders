@@ -1,9 +1,130 @@
+@media screen and (max-width: 600px) {
+    .nav-bar {
+        /* gap: 120px; */
+        justify-content: space-around;
+    } 
+     
 
-@media screen and (max-width: 600px){
-    .nav-bar{
+    .nav-elements {
+        display: none;
+        cursor: pointer;
+    }
+    .nav-bar-icon{
+        display: initial;
+    }
+
+    .sec-popular-tour {
         flex-direction: column;
     }
-    .nav-elements{
-        gap: 15px;
+
+    .ban-dis {
+        padding: auto 16px;
+    }
+
+    .ban-content {
+        margin-top: 0px;
+        padding-top: 32px;
+        flex-wrap: wrap;
+    }
+
+    .ban-title {
+        font-size: 22px;
+    }
+
+    .banner-input-field {
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+
+
+
+    }
+
+    .input-field,
+    .cmn-btn {
+        margin: 5px;
+        width: 255px;
+        height: 52px;
+
+    }
+
+    /* main start */
+    .b-color {
+        font-size: 20px;
+    }
+
+    .m-color {
+        font-size: 20px;
+    }
+
+    .s-color {
+        font-size: 14px;
+    }
+
+    .popular-tour-img {
+        max-width: 435px;
+        max-height: 342px;
+    }
+
+    .popular-tour-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* popular destination */
+
+    .img-box-1,
+    .img-box-2,
+    .img-box-3 {
+        flex-direction: column;
+        max-width: 435px;
+    }
+
+    .fourth-img img {
+        width: 100%;
+        align-items: center;
+    }
+    .all-img p{
+        font-size: 20px;
+    }
+
+    /* choose us */
+    .hotels-services ,
+    .sec-news-letter {
+        max-width: 435px;
+        flex-direction: column;
+    }
+
+    .hotels,
+    .services,
+    .price{
+        width: 280px;
+    }
+    .sec-news-letter img{
+       width: 100%;
+    }
+    .btn-Subscribe ,
+    .input-field2{
+        width: 300px;
+    }
+    .box-btn{
+        margin-top: 33%;
+        margin-left: 76%;
+    }
+    /* footer section */
+    footer{
+        margin-top: 25px;
+    }
+    .footer-content{
+        margin-top: 30px;
+    }
+
+    .all-right {
+        margin-top: 15px;
+        padding-bottom: 30px;
     }
 }
